@@ -1,0 +1,25 @@
+.username {
+  padding: 10px;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+input.search {
+  width: 260px;
+  border: 1px solid #555;
+  display: block;
+  padding: 9px 4px 9px 40px;
+  background: transparent url("/src/assets/search.svg") no-repeat 13px;
+}
+
+button {
+  background: transparent;
+  cursor: pointer;
+  border: 1px solid grey;
+  transition: background-color 0.2s ease-in;
+}
+
+button:hover {
+  background-color: rgb(212, 165, 255);
+}
